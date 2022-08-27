@@ -1,0 +1,23 @@
+[project]
+name = "reverse_polish_notation_evaluator"
+version = "0.0.1"
+authors = [
+    { name="Thomas Winterfield", email="twinterfield68@gmail.com" },
+]
+description = "A package that evaluates arithmetic or boolean expressions written in RPN"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/TimTam950/reverse_polish_notation_evaluator"
+"Bug Tracker" = "https://github.com/TimTam950/reverse_polish_notation_evaluator/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
