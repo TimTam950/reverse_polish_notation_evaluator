@@ -2,3 +2,4 @@
 venv/
 reverse_polish_notation_evaluator.iml
 api_key.txt
+dist/
